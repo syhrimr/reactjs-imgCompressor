@@ -2,11 +2,13 @@ import React from 'react';
 import imageCompression from 'browser-image-compression';
 import Card from 'react-bootstrap/Card';
 
+import logo from '../img/upload-image.png';
+
 export default class imageCompressor extends React.Component {
     constructor() {
         super();
         this.state = {
-            compressedLink: "http://navparivartan.in/wp-content/uploads/2018/11/placeholder.png", //placeholder
+            compressedLink: logo, //placeholder
             originalImage: "",
             originalLink: "",
             clicked: false,
@@ -59,7 +61,7 @@ export default class imageCompressor extends React.Component {
     render() {
         return(
             <div className='m-5'>
-                <div className='text-light text-center'>
+                <div className='text-dark text-center'>
                     <h1>Three Simple Steps:</h1>
                     <h3>1. Upload an image</h3>
                     <h3>2. Click on "Compress"</h3>
