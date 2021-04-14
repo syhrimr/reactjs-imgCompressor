@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/reactjs-imgCompressor/static/js/main.5194cca3.chunk.js",
+    "main.js.map": "/reactjs-imgCompressor/static/js/main.5194cca3.chunk.js.map",
+    "runtime-main.js": "/reactjs-imgCompressor/static/js/runtime-main.50ed2e6c.js",
+    "runtime-main.js.map": "/reactjs-imgCompressor/static/js/runtime-main.50ed2e6c.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/reactjs-imgCompressor/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.ab861209.chunk.js": "/reactjs-imgCompressor/static/js/2.ab861209.chunk.js",
+    "static/js/2.ab861209.chunk.js.map": "/reactjs-imgCompressor/static/js/2.ab861209.chunk.js.map",
+    "index.html": "/reactjs-imgCompressor/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/reactjs-imgCompressor/static/css/2.4c97ca4f.chunk.css.map",
+    "static/js/2.ab861209.chunk.js.LICENSE.txt": "/reactjs-imgCompressor/static/js/2.ab861209.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50ed2e6c.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.ab861209.chunk.js",
+    "static/js/main.5194cca3.chunk.js"
+  ]
+}
