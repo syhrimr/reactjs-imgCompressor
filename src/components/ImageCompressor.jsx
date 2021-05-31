@@ -1,14 +1,14 @@
 import React from 'react';
 import imageCompression from 'browser-image-compression';
-import Card from 'react-bootstrap/Card';
+import { Alert, Card } from 'react-bootstrap';
 
-import logo from '../img/upload-image.png';
+// import logo from '../img/upload-image.png';
 
 export default class imageCompressor extends React.Component {
     constructor() {
         super();
         this.state = {
-            compressedLink: logo, //placeholder
+            //compressedLink: logo, //placeholder <div>Icons made by <a href="https://www.flaticon.com/authors/smartline" title="Smartline">Smartline</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
             originalImage: "",
             originalLink: "",
             clicked: false,
@@ -61,33 +61,13 @@ export default class imageCompressor extends React.Component {
     render() {
         return(
             <div className='m-5'>
-                <div className='text-dark text-center'>
-                    <h1>Three Simple Steps:</h1>
-                    <h3>1. Upload an image</h3>
-                    <h3>2. Click on "Compress"</h3>
-                    <h3>3. Download compressed image</h3>
-                </div>
-
                 <div className='row mt-5'>
                     <div className='col-xl-4 col-lg-4 col-md-12 col-sm-12'>
-                        {this.state.uploadImage ? (
-                            <Card.Img
-                                className='ht'
-                                variant='top'
-                                src={this.state.originalLink}
-                            ></Card.Img>
-                        ) : (
-                            <Card.Img
-                                className='ht'
-                                variant='top'
-                                src="http://navparivartan.in/wp-content/uploads/2018/11/placeholder.png"
-                            ></Card.Img>
-                        )}
-                        <div className='d-flex justify-content-center'>
+                        <div className='d-flex justify-content-center upload-file'>
                             <input
                                 type='file'
                                 accept='image/*'
-                                className='mt-2 btn btn-dark w-75'
+                                className='mt-2 btn btn-dark w-100'
                                 onChange={e => this.handle(e)}
                             />
                         </div>
